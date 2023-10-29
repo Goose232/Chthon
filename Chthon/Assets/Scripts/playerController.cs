@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UIElements;
 
 public class playerController : MonoBehaviour
@@ -16,6 +17,9 @@ public class playerController : MonoBehaviour
     [SerializeField] private Transform groundCheck;
     [SerializeField] private LayerMask grounLayer;
 
+    [SerializeField] private Transform ObstacleCheck;
+    [SerializeField] private LayerMask obstacle;
+
     public Animator animator;
 
 
@@ -30,18 +34,30 @@ public class playerController : MonoBehaviour
         movementX = Input.GetAxisRaw("Horizontal");
 
         if (movementX > 0 || movementX < 0)
-        {
-            animator.SetBool("isRunning", true);  
+        { 
+            animator.SetBool("isStopping", false);
+            animator.SetBool("isRunning", true);
+            animator.SetBool("isPushing", false);
+
+            if (isPushed())
+            {
+                animator.SetBool("isPushing", true);
+                animator.SetBool("isStopping", false);
+                animator.SetBool("isRunning", false);
+            }
+
         }
 
-            else
+                else
                 {
-            animator.SetBool("isRunning", false);        
-                }
+                    animator.SetBool("isRunning", false);
+                    animator.SetBool("isStopping", true);
+                    animator.SetBool("isPushing", false);
+                }   
 
 
 
-        if (Input.GetButtonDown("Jump") && isGrounded())
+        if (Input.GetButtonDown("Jump") && (isGrounded() || isBoxed()))
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
@@ -61,6 +77,16 @@ public class playerController : MonoBehaviour
         return Physics2D.OverlapCircle(groundCheck.position, 0.2f, grounLayer);
     }
 
+    private bool isBoxed()
+    {
+        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, obstacle);
+    }
+
+    private bool isPushed()
+    {
+        return Physics2D.OverlapCircle(ObstacleCheck.position, 0.2f, obstacle);
+    }
+
     private void Flip()
     {
         if (isFacingRight && movementX <0f || !isFacingRight && movementX > 0f)
@@ -69,7 +95,8 @@ public class playerController : MonoBehaviour
                 Vector3 localScale = transform.localScale;
                 localScale.x *= -1f;
                 transform.localScale = localScale;
-            }
+            
+        }
     }
 
     
