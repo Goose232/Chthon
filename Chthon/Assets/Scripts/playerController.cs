@@ -38,6 +38,7 @@ public class playerController : MonoBehaviour
             animator.SetBool("isStopping", false);
             animator.SetBool("isRunning", true);
             animator.SetBool("isPushing", false);
+            animator.SetBool("isRunJumping", false);
 
             if (isPushed())
             {
@@ -53,15 +54,23 @@ public class playerController : MonoBehaviour
                     animator.SetBool("isRunning", false);
                     animator.SetBool("isStopping", true);
                     animator.SetBool("isPushing", false);
-                }   
+                    animator.SetBool("isRunJumping", false);
+        }
 
 
 
         if (Input.GetButtonDown("Jump") && (isGrounded() || isBoxed()))
+        {
             rb.velocity = new Vector2(rb.velocity.x, jumpForce);
+            animator.SetBool("isRunJumping", true);
+        }
 
         if (Input.GetButtonUp("Jump") && rb.velocity.y > 0f)
+        {
             rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y * 0.5f);
+            
+        }
+
         
 
         Flip();
@@ -74,17 +83,17 @@ public class playerController : MonoBehaviour
 
     private bool isGrounded()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, grounLayer);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.4f, grounLayer);
     }
 
     private bool isBoxed()
     {
-        return Physics2D.OverlapCircle(groundCheck.position, 0.2f, obstacle);
+        return Physics2D.OverlapCircle(groundCheck.position, 0.3f, obstacle);
     }
 
     private bool isPushed()
     {
-        return Physics2D.OverlapCircle(ObstacleCheck.position, 0.2f, obstacle);
+        return Physics2D.OverlapCircle(ObstacleCheck.position, 0.5f, obstacle);
     }
 
     private void Flip()

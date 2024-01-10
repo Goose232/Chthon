@@ -1,0 +1,426 @@
+fileFormatVersion: 2
+guid: 767c573701454144f9a899fa5d8c03ff
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stop_0
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 74
+        width: 121
+        height: 316
+      alignment: 9
+      pivot: {x: 0.43573987, y: 0.49589896}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36ed2a03b3fd67d469f2b0040f3a44ee
+      internalID: -2057541726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 73
+        width: 95
+        height: 315
+      alignment: 9
+      pivot: {x: 0.4217616, y: 0.49006498}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c1a82cd8100b2445bbb15db0ce37592
+      internalID: 105931504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_2
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 74
+        width: 80
+        height: 314
+      alignment: 9
+      pivot: {x: 0.3819912, y: 0.49030128}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c7d7d640a31a0a41a17f55c2a4fcd16
+      internalID: -274086525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 67
+        width: 107
+        height: 316
+      alignment: 9
+      pivot: {x: 0.3835743, y: 0.49260822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71d2765d90ccd044a9ca0a44a4fbbaac
+      internalID: 1480522858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_4
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 66
+        width: 109
+        height: 315
+      alignment: 9
+      pivot: {x: 0.37270194, y: 0.49047586}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 023ff7f05da9fb244bfcb7567def2395
+      internalID: -1199423658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_5
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 66
+        width: 126
+        height: 311
+      alignment: 9
+      pivot: {x: 0.32177636, y: 0.49247855}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0e400aaad9e8041845e82b88765b8f
+      internalID: -1420459882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_6
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 61
+        width: 132
+        height: 313
+      alignment: 9
+      pivot: {x: 0.29316962, y: 0.491431}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c02ce74789f74ad4eaa37acf5152e2c8
+      internalID: -206721849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_7
+      rect:
+        serializedVersion: 2
+        x: 947
+        y: 61
+        width: 132
+        height: 311
+      alignment: 9
+      pivot: {x: 0.29091436, y: 0.49123517}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19616b92bfa02ff429fce897361f120f
+      internalID: 1723968559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_8
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 67
+        width: 137
+        height: 310
+      alignment: 9
+      pivot: {x: 0.26232377, y: 0.4864069}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db8033932e0e4c44bf4c45ab32d3881
+      internalID: 142643830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_9
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 68
+        width: 97
+        height: 311
+      alignment: 9
+      pivot: {x: 0.3112541, y: 0.49845076}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71beac33b02330241b1a6c93f60c86d5
+      internalID: -1145371214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_10
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 71
+        width: 88
+        height: 310
+      alignment: 9
+      pivot: {x: 0.3340357, y: 0.4975204}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0af16855721eb042b664645c3cd9c2b
+      internalID: -62860435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_11
+      rect:
+        serializedVersion: 2
+        x: 1478
+        y: 75
+        width: 86
+        height: 309
+      alignment: 9
+      pivot: {x: 0.33364087, y: 0.49855307}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf92bd82718a85d4b8b91e4d2e28d8fe
+      internalID: 1283227845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stop_12
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 77
+        width: 80
+        height: 307
+      alignment: 9
+      pivot: {x: 0.3658722, y: 0.5014563}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ebf87c44bcea3d49a54bd896cf1d535
+      internalID: -1670274795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      stop_0: -2057541726
+      stop_1: 105931504
+      stop_10: -62860435
+      stop_11: 1283227845
+      stop_12: -1670274795
+      stop_2: -274086525
+      stop_3: 1480522858
+      stop_4: -1199423658
+      stop_5: -1420459882
+      stop_6: -206721849
+      stop_7: 1723968559
+      stop_8: 142643830
+      stop_9: -1145371214
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

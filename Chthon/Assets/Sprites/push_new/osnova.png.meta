@@ -1,0 +1,404 @@
+fileFormatVersion: 2
+guid: 5011eb57e0f8641459e05faf54000ae3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: osnova_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 113
+        width: 197
+        height: 293
+      alignment: 9
+      pivot: {x: 0.73, y: 0.54726}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe2ce026e0bd0f4e91ba58a6c10c187
+      internalID: 381050393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_1
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 110
+        width: 198
+        height: 294
+      alignment: 9
+      pivot: {x: 0.73, y: 0.55040383}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f98e4be86b07544951a23e1cdb601c
+      internalID: 2075231597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_2
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 107
+        width: 194
+        height: 296
+      alignment: 9
+      pivot: {x: 0.73, y: 0.55856085}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71291a5dd84d67741b95e03aedc7c901
+      internalID: 64470413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 108
+        width: 195
+        height: 294
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5617872}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72207c7e511da974ca75a8aa3a4d84e0
+      internalID: -1261217967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_4
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 113
+        width: 182
+        height: 293
+      alignment: 9
+      pivot: {x: 0.73, y: 0.57076716}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603042d8fb55f8458263d4912fa0b11
+      internalID: 854305143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_5
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 112
+        width: 178
+        height: 296
+      alignment: 9
+      pivot: {x: 0.73, y: 0.57219696}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e0b1825310c7e42b4a17ec0f249a13
+      internalID: -1293549817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_6
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 119
+        width: 175
+        height: 285
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5653848}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1183037619c69c4680e10450e4afb49
+      internalID: 1520084030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_7
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 118
+        width: 173
+        height: 291
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5711322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4652a2277177c34c8aadfcfd002cac5
+      internalID: -1223462454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_8
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 118
+        width: 181
+        height: 297
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5639755}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f4a6eda3b22914e95b4a6eed155edf
+      internalID: 20665430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_9
+      rect:
+        serializedVersion: 2
+        x: 1801
+        y: 118
+        width: 184
+        height: 294
+      alignment: 9
+      pivot: {x: 0.73, y: 0.5690915}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15815f06a7d28e740965ce18c2c9485e
+      internalID: -811127549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_10
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 119
+        width: 189
+        height: 292
+      alignment: 9
+      pivot: {x: 0.73, y: 0.57135826}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bb55d83a13da5e43ba53b8e356af8ad
+      internalID: 829431874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: osnova_11
+      rect:
+        serializedVersion: 2
+        x: 2185
+        y: 117
+        width: 196
+        height: 293
+      alignment: 9
+      pivot: {x: 0.73, y: 0.56174093}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d36d7157e90d174499cf19fbbadbfb4
+      internalID: -1943571411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      osnova_0: 381050393
+      osnova_1: 2075231597
+      osnova_10: 829431874
+      osnova_11: -1943571411
+      osnova_2: 64470413
+      osnova_3: -1261217967
+      osnova_4: 854305143
+      osnova_5: -1293549817
+      osnova_6: 1520084030
+      osnova_7: -1223462454
+      osnova_8: 20665430
+      osnova_9: -811127549
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
